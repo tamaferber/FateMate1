@@ -1,0 +1,131 @@
+#header{
+    width: 1046px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin: 0 auto;
+
+}
+
+/* margin: 0     0     0     8px;
+         ↑     ↑     ↑      ↑
+       top   right bottom  left */
+
+/* div{
+    display: inline-block;
+} */
+
+a{
+    text-decoration: none;          
+}
+/* a:hover{
+    color:#333333;
+} */
+
+ul{
+    list-style: none;  
+}
+
+.menu-list-item{
+    font-family: Nunito, sans-serif;
+    margin: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #612999;
+    display: inline-block;
+}
+
+
+.full_logo {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+    margin: 0 100px 0 32px;
+  }
+  
+  .logo-image {
+    height: 64px;  
+    width: 64px;
+    vertical-align: middle; 
+    margin: 0;
+  }
+  
+  h4 {
+    font-family: Nunito, sans-serif;
+    display: inline-block;
+    vertical-align:center; 
+    margin: 0 0 0 2px;  
+    color: #3E3F43;
+    letter-spacing: 0.25em;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+
+
+
+footer{
+    margin:0;
+    background-color:#EFECFF;
+    width: 1200px;
+    height: 287px;
+    color: #333333;
+    font-family: Nunito, sans-serif;
+    letter-spacing: 0em;    
+}
+
+footer a {
+    color: #333333;
+}
+
+h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    margin: 0px 0px 8px 32px;
+    padding-top: 32px;
+
+}
+
+.footer-list-words{
+    color: #333333;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0px 0px 8px 32px;
+    padding-top: 8px;
+
+
+}
+
+.footer-icons-container {
+  margin-left: 32px;
+  padding-top: 8px;
+}
+
+.footer-icon {
+  margin-right: 24px;
+}
+
+.footer-list-rights{
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0px 0px 8px 32px;
+    padding-top: 16px;
+
+}
+
+.footer_lists_container{
+    display: flex;
+    gap: 150px;
+
+
+}
+
+/* .footer_right, .footer_left{
+} */
