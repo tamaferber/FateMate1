@@ -1,0 +1,70 @@
+#header{
+    width: 1046px;
+    height: 64px;
+}
+
+#wrapper {
+        margin: 32px 32px 122px 32px;
+
+    /* margin: 0 32px 0 32px; */
+    position: relative;
+
+}
+
+a{
+    text-decoration: none;          
+}
+a:hover{
+    color:#612999;
+}
+
+ul{
+    list-style: none;  
+}
+
+.menu-list-item{
+    font-family: Nunito, sans-serif;
+    /* margin: 48px ; */
+    font-size: 30px;
+    font-weight: 400;
+    color: #612999;
+    display: inline-block;
+    margin-right: 64px;
+    /* margin-top: 48px; */
+}
+
+.menu-list-item-current-page {
+    font-weight: 700;
+    color: #612999;
+    font-family: Nunito, sans-serif;
+    /* margin: 40px; */
+    margin-right: 62px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.full_logo {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+    margin: 0 135px 0 32px;
+  }
+  
+  .logo-image {
+    height: 64px;  
+    width: 64px;
+    vertical-align: middle; 
+    margin: 0;
+  }
+
+  h4 {
+    font-family: Nunito, sans-serif;
+    display: inline-block;
+    vertical-align:center; 
+    margin: 0 0 0 2px;  
+    color: #3E3F43;
+    letter-spacing: 0.25em;
+    font-weight: 700;
+    font-size: 24px;
+  }
