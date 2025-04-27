@@ -3,6 +3,11 @@
     height: 64px;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 #wrapper {
     margin: 32px 32px 122px 32px;
     position: relative;
@@ -148,7 +153,7 @@ ul{
 }
  
 .fate-container {
-    /* margin-left: 32px; */
+    margin-bottom: 198px;
     width:auto;
     height: 503px;
     display: flex;
@@ -221,4 +226,71 @@ ul{
     to { background-position: 100% 100%; }
   }
   
+
+
+footer{
+    margin:0;
+    background-color:#EFECFF;
+    height: 287px;
+    color: #333333;
+    font-family: Nunito, sans-serif;
+    letter-spacing: 0em;
+    width: 100vw;
+    position: relative;
+    
+}
+
+footer a {
+    color: #333333;
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+
+h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    margin: 0px 0px 8px 32px;
+    padding-top: 32px;
+
+}
+
+.footer-list-words{
+    color: #333333;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0px 0px 8px 32px;
+    padding-top: 8px;
+
+
+}
+
+.footer-icons-container {
+  margin-left: 32px;
+  padding-top: 8px;
+}
+
+.footer-icon {
+  margin-right: 24px;
+}
+
+.footer-list-rights{
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0px 0px 8px 32px;
+    padding-top: 16px;
+
+}
+
+.footer_lists_container{
+    display: flex;
+    gap: 150px;
+
+
+}
   
