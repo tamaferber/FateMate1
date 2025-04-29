@@ -1,7 +1,9 @@
 html, body {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
+
 
 a{
     text-decoration: none;          
@@ -11,8 +13,12 @@ a:hover{
 }
 
 #wrapper {
-    margin: 32px 32px 0 32px;
+    width: 1200px;
+    /* margin: 32px 32px 0 32px; */
     position: relative;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-top: 32px;
 
 }
 
@@ -39,13 +45,8 @@ ul{
     /* margin-top: 48px; */
 }
 
-.menu-list-item-current-page {
+.current-page {
     font-weight: 700;
-    color: #612999;
-    font-family: Nunito, sans-serif;
-    margin-right: 62px;
-    font-size: 30px;
-    display: inline-block;
 }
 
 .full_logo {
@@ -72,9 +73,6 @@ ul{
     width: 100vw;
     margin-left: calc(-32px);
     margin-right: calc(-32px);
-    /* margin: 0;
-    padding: 0;  */
-    /* position: absolute; */
     display: block;
 }
     
@@ -163,7 +161,6 @@ h3{
 
 .image-heart-container{
     position: relative;
-
 }
 
 .card-image {

@@ -1,15 +1,28 @@
-#header{
-    width: 1046px;
+header{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 64px;
+    padding-left: 32px;
 }
 
 html, body {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+
 #wrapper {
-    margin: 32px 32px 122px 32px;
+    /* margin: 0 auto;   */
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 32px;
+    /* margin: 32px 32px 122px 32px; */
     position: relative;
 
 }
@@ -23,7 +36,8 @@ a:hover{
 
 ul{
     list-style: none;  
-    padding-inline-start: 0px
+    padding-inline-start: 0px;
+    /* margin-left: 32px; */
 }
 
 .menu-list-item{
@@ -35,21 +49,19 @@ ul{
     margin-right: 64px;
 }
 
-.menu-list-item-current-page {
+.current-page {
     font-weight: 700;
-    color: #612999;
-    font-family: Nunito, sans-serif;
-    margin-right: 62px;
-    font-size: 30px;
-    display: inline-block;
 }
 
 .full_logo {
+
+    /* display: flex; */
+    align-items: center;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
     padding: 0px;
-    margin: 0 135px 0 0;
+    margin: 0 135px 0 0px;
   }
   
   .logo-image {
@@ -73,12 +85,14 @@ ul{
   .Area2{
     height: 300px;
     width: 1052px;
+    margin: 32px 0 0 0px;
+    padding-left: 32px;
+
   }
 
   .pictures-container{
     display: flex;
-    gap:32px;
-    
+    gap:32px;    
   }
 
   .photo{
@@ -96,7 +110,9 @@ ul{
   }
 
   .rocketsList{
-    margin: 0px 0 32px 0;
+    margin: 32px 0 32px 0px;
+    padding-left: 32px;
+
     width: fit-content;
     }
 
@@ -108,7 +124,9 @@ ul{
     line-height: 30px;
     letter-spacing: 0%;
     color: #612999;
-    margin: 32px 0 32px 0;
+    margin: 32px 0 32px 0px;
+    padding-left: 32px;
+
 }
 
 .rocketsListItems{
@@ -150,18 +168,18 @@ ul{
     letter-spacing: 0%;
     vertical-align: middle;
     color: #000;
+    flex-wrap: wrap;
 }
  
 .fate-container {
-    margin-bottom: 198px;
+    height: 503px;
+    margin: 0 0 198px 32px;
     width:auto;
     height: 503px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    background-color: #b092f3;
-    ; 
+    background-color: #b092f3;  
   }
   
   .fate-circle {
@@ -292,5 +310,6 @@ h5{
     gap: 150px;
 
 
-}
-  
+} 
+
+
